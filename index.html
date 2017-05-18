@@ -3,23 +3,93 @@
 <head>
 	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
 	<script src="assets/javascript/game.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Marcellus+SC" rel="stylesheet" type="text/css">
+	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-   
+   	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Orbitron:400,700" rel="stylesheet">
   	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
 	<title>Rupee Collector</title>
 </head>
 <body>
-	<div id="container">
-		<h1>Rupee Collector</h1>
-			<div class="number"> Number: </div>
-			<div class="images">  </div>
-			Total: <p class="total">0</p>
-			Wins: <p id="wins">0</p>
-			Losses: <p id="losses">0</p>
+	<div class="container">
+	<div class= "row">
+			<div class= "col-md-2">
+			</div>
+			<div class = "box" class= "col-md-8" >
+				<img class= "logo" src = "assets/images/logo.png">
+				<h1>Rupee Collector</h1>
+			</div>
+			<div class= "col-md-2">
+			</div>
+	</div>
+	<div class="row">
+			<div class= "col-md-3">
+			</div>
+			<div class= "col-md-6">
+			<div class = "box">
+			<h2>Rules:</h2>
+			<p>You will be given a random number at the start of the game. </p><br>
+			<p>There are four rupees below. By clicking on a rule you will add a specific amount of points to your total score.</p><br>
+			<P>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</P><br>
+			<p>The value of each rupee is hidden from you until click on it. Each time the game starts, the game will change the values of each rupee.</p><br>
+			</div>
+			<div class= "col-md-3">
+			</div>
+			</div>
+	</div>
+
+	<div class= "row">
+		<div class = "col-md-3">
+		</div>
+		<div class = "col-md-3">
+		<div class = "box">
+		<h3>Number:</h3> <div class = "number"> Number: </div>
+		</div>
+		</div>
+		<div class = "col-md-3">
+		<div class = "box">
+		<h3>Total:</h3> <div class = "total"> 0 </div>
+		</div>
+		</div>
+		<div class= "col-md-3">
+		</div>
+						
+	</div>
+
+	<div class="row">
+	<div class= "col-md-3">
+			</div>
+			<div class = "col-md-6" >
+				<div class="images">  </div>
+			</div>
+			<div class= "col-md-3">
+			</div>
+	</div>
+
+
+	<div class= "row">
+		<div class = "col-md-3">
+		</div>
+		<div class = "col-md-3">
+		<div class = "box">
+		<h3>Wins:</h3> <p id="wins">0</p>
+		</div>
+		</div>
+		<div class = "col-md-3">
+		<div class = "box">
+		<h3>Losses:</h3> <p id="losses">0</p>
+		</div>
+		</div>
+		<div class= "col-md-3">
+		</div>
+	</div>
+	
 </body>
 </html>

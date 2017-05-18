@@ -89,7 +89,6 @@ var rupeeImage = [
 
 		start();
 
-
 	});
 
 

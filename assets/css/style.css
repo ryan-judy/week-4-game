@@ -2,11 +2,69 @@
   box-sizing: border-box;
 }
 
+body {
+	font-family: 'Marcellus SC', serif;
+	background-image: url(../images/background.jpg);
+	line-height: 24px;
+}
+
+img {
+	padding: 10px;
+	margin: 0px 40px;
+}
+
+p {
+	
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 42px;
+	padding: 15px;
+	margin-bottom: 10px;
+
+}
+
+h2 {
+	font-size: 36px;
+	color: #db010a;
+	font-weight: bold;
+	margin: 10px 0px;
+}
+
+h3 {
+	font-size: 24px;
+	color: #db010a;
+	font-weight: bold;
+
+}
+
 .container {
   width: 100%;
-  max-width: 960px;
   margin: 0 auto;
   clear: both;
+}
+
+.box {
+	width: 100%;
+	background-color: white;
+	padding: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	margin-bottom: 20px;
+}
+
+.box.rules {
+	margin-top: 10px;
+}
+
+.logo {
+	text-align: center;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
 }
 
 .rupee-image {
@@ -14,6 +72,19 @@
       height: 100px;
 }
 
-.number {
+.images {
+	background-color: white;
+	padding: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	margin-bottom: 20px;
+	text-align: center;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
 
+}
+
+.total {
 }
